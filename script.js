@@ -29,3 +29,36 @@ function setActiveLink() {
 
 window.addEventListener("scroll", setActiveLink, { passive: true });
 window.addEventListener("load", setActiveLink);
+
+// Scroll reveal animation for sections + hero
+const revealObserver = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        window.requestAnimationFrame(() => {
+          entry.target.classList.add("reveal-visible");
+          entry.target.classList.remove("reveal-hidden");
+        });
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.15 }
+);
+
+const revealTargets = document.querySelectorAll(
+  "section, .hero, .card, .about-card, .testimonial-card, .hours-card, .contact-card"
+);
+
+revealTargets.forEach((target, index) => {
+  target.classList.add("reveal-hidden");
+  target.style.transitionDelay = `${Math.min(index * 120, 200)}ms`;
+  revealObserver.observe(target);
+});
+
+if (!window.IntersectionObserver) {
+  revealTargets.forEach((target) => {
+    target.classList.add("reveal-visible");
+    target.classList.remove("reveal-hidden");
+  });
+}
