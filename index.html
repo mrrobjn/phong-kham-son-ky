@@ -26,6 +26,15 @@
   
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+  <script src="./config.js"></script>
+  <script>
+    // Update meta tags with environment config
+    if (typeof CONFIG !== 'undefined') {
+      document.querySelector('meta[property="og:image"]').content = CONFIG.WEBSITE_URL + '/assets/images/og-image.png';
+      document.querySelector('meta[property="og:url"]').content = CONFIG.WEBSITE_URL + '/';
+      document.querySelector('meta[name="twitter:image"]').content = CONFIG.WEBSITE_URL + '/assets/images/og-image.png';
+    }
+  </script>
 </head>
 <body>
   <div class="topbar">
