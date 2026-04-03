@@ -206,6 +206,7 @@ a {
   width: 35%;
   object-fit: contain;
   filter: brightness(0.95);
+  border-radius: var(--radius-lg);
 }
 
 .hero__grid {
