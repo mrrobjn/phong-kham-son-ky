@@ -62,3 +62,58 @@ if (!window.IntersectionObserver) {
     target.classList.remove("reveal-hidden");
   });
 }
+
+// Mobile menu toggle
+const navToggle = document.querySelector(".nav__toggle");
+const menu = document.querySelector(".menu");
+const navToggleIcon = navToggle?.querySelector("i");
+
+if (navToggle && menu) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = menu.classList.toggle("is-open");
+    navToggle.classList.toggle("is-open", isOpen);
+    navToggle.setAttribute("aria-expanded", isOpen);
+    
+    // Toggle icon between bars and times
+    if (navToggleIcon) {
+      if (isOpen) {
+        navToggleIcon.classList.remove("fa-bars");
+        navToggleIcon.classList.add("fa-times");
+      } else {
+        navToggleIcon.classList.remove("fa-times");
+        navToggleIcon.classList.add("fa-bars");
+      }
+    }
+  });
+
+  // Close menu when a link is clicked
+  menuLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("is-open");
+      navToggle.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", false);
+      
+      if (navToggleIcon) {
+        navToggleIcon.classList.remove("fa-times");
+        navToggleIcon.classList.add("fa-bars");
+      }
+    });
+  });
+
+  // Close menu on scroll
+  window.addEventListener(
+    "scroll",
+    () => {
+      menu.classList.remove("is-open");
+      navToggle.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", false);
+      
+      if (navToggleIcon) {
+        navToggleIcon.classList.remove("fa-times");
+        navToggleIcon.classList.add("fa-bars");
+      }
+    },
+    { passive: true }
+  );
+}
+
