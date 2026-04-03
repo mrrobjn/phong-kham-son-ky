@@ -1,47 +1,58 @@
 # phong-kham-son-ky
 
-Phòng khám Sơn Kỳ - Website
+Phòng khám Sơn Kỳ - Static landing page
 
-## 🚀 Deployment
+## 📦 Overview
 
-This site uses **GitHub Actions** for automatic deployment to GitHub Pages.
+- Pure HTML/CSS/JS site
+- Local image assets in `assets/images`
+- SEO-friendly metadata in `index.html`
+- No backend required
 
-### Setup
-1. Enable GitHub Pages in repository settings (Source: Deploy from branch → gh-pages)
-2. Just push to `main` branch - deployment happens automatically
-3. Site will be live at: `https://mrrobjn.github.io/phong-kham-son-ky`
+## ▶️ Run locally
 
-See [.github/DEPLOYMENT.md](.github/DEPLOYMENT.md) for detailed instructions.
-
-## 📝 Configuration
-
-Update website URL in `config.js`:
-```javascript
-const CONFIG = {
-  WEBSITE_URL: 'https://yourdomain.com',
-  WEBSITE_NAME: 'Phòng khám Sơn Kỳ'
-};
+```bash
+git clone <repo-url>
+cd phongkhamsonky-site
+python3 -m http.server 8000
 ```
 
-## 📂 Project Structure
+Then open `http://localhost:8000`.
+
+## 🌐 Deployment
+
+This site can be deployed to GitHub Pages as a static site:
+1. Push code to `main` branch.
+2. Set repository **Pages** source to **main / root**.
+3. Access at `https://<your-username>.github.io/<repo>`.
+
+## 📁 Project structure
 
 ```
 .
-├── index.html          # Main website
-├── styles.css          # Styling
-├── script.js           # JavaScript
-├── config.js           # Configuration (auto-updated by CI/CD)
-├── assets/
-│   └── images/         # All website images (local)
-└── .github/
-    └── workflows/      # GitHub Actions automation
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+    └── images/
 ```
 
-## ✅ Features
+## 🛠️ Asset notes
 
-- ✨ Responsive design
-- 🖼️ All images self-hosted (no external dependencies)
-- 🔍 SEO optimized with meta tags
-- 📱 Mobile-friendly
-- ⚡ Fast loading
-- 🔄 Automatic CI/CD deployment
+- Logo and banner: `./assets/images/logo.png`, `./assets/images/banner.png`
+- Social preview image: `./assets/images/og-image.png`
+- About/Testimonials images in `about/` and `testimonials/`
+
+## 💡 Customize
+
+Update source paths and metadata directly in `index.html`:
+- `title`, `description`, `keywords`
+- Open Graph / Twitter meta tags
+- Local image paths
+
+## ✅ Goals
+
+- Fully local resource load (no external image CDN)
+- Lightweight and fast rendering
+- Easy manual deployment or CI via GitHub Pages
+

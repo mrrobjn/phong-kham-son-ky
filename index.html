@@ -26,15 +26,6 @@
   
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
-  <script src="./config.js"></script>
-  <script>
-    // Update meta tags with environment config
-    if (typeof CONFIG !== 'undefined') {
-      document.querySelector('meta[property="og:image"]').content = CONFIG.WEBSITE_URL + '/assets/images/og-image.png';
-      document.querySelector('meta[property="og:url"]').content = CONFIG.WEBSITE_URL + '/';
-      document.querySelector('meta[name="twitter:image"]').content = CONFIG.WEBSITE_URL + '/assets/images/og-image.png';
-    }
-  </script>
 </head>
 <body>
   <div class="topbar">
@@ -69,7 +60,7 @@
   <header id="home" class="hero">
     <img
       class="hero__bg"
-      src="./assets/images/banner.png"
+      src="./assets/images/banner.jpg"
       alt=""
       aria-hidden="true"
       loading="lazy"
@@ -88,16 +79,6 @@
         </div>
       </div>
 
-      <aside class="hero-card">
-        <h3>Mở cửa đón bệnh nhân</h3>
-        <p>Tiếp nhận ca bệnh, lên lịch khám thông thường từ <strong>07:00 đến 21:00</strong>.</p>
-        <p>Dừng nhận bệnh thông thường sau khung giờ, vẫn theo dõi thăm nuôi và trực cấp cứu.</p>
-        <div class="badge-list">
-          <div class="badge">Hoạt động cấp cứu: 24/7</div>
-          <div class="badge">Cam kết an toàn và chất lượng</div>
-          <div class="badge">Đội ngũ bác sĩ nhiều năm kinh nghiệm</div>
-        </div>
-      </aside>
     </div>
   </header>
 
