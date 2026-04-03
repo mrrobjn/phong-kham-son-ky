@@ -1,520 +1,755 @@
 <!doctype html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Phòng khám Sơn Kỳ</title>
-  <meta name="description" content="Phòng khám Sơn Kỳ - Kinh nghiệm, y đức, nhiệt tâm. Khám, điều trị và phẫu thuật an toàn." />
-  <meta name="keywords" content="phòng khám, y tế, bác sĩ, khám bệnh, Tân Phú, Hồ Chí Minh" />
-  <meta name="author" content="Phòng khám Sơn Kỳ" />
-  <meta name="theme-color" content="#4CAF50" />
-  <meta name="robots" content="index, follow" />
-  
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Phòng khám Sơn Kỳ" />
-  <meta property="og:description" content="Phòng khám Sơn Kỳ - Kinh nghiệm, y đức, nhiệt tâm. Khám, điều trị và phẫu thuật an toàn." />
-  <meta property="og:image" content="./assets/images/og-image.png" />
-  <meta property="og:url" content="" />
-  <meta property="og:site_name" content="Phòng khám Sơn Kỳ" />
-  
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Phòng khám Sơn Kỳ" />
-  <meta name="twitter:description" content="Phòng khám Sơn Kỳ - Kinh nghiệm, y đức, nhiệt tâm. Khám, điều trị và phẫu thuật an toàn." />
-  <meta name="twitter:image" content="./assets/images/og-image.png" />
-  
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
-</head>
-<body>
-  <div class="topbar">
-    <div class="container topbar__inner">
-      <span>102 Đường CN1, P. Sơn Kỳ, Q. Tân Phú, Hồ Chí Minh</span>
-      <span>Hotline: 0913420615</span>
-    </div>
-  </div>
-
-  <nav class="nav">
-    <div class="container nav__inner">
-      <a href="#home" class="brand">
-        <img
-          class="brand__logo"
-          src="./assets/images/logo.png"
-          alt="Phòng khám Sơn Kỳ"
-          width="38"
-          height="38"
-        />
-        <span>Phòng khám Sơn Kỳ</span>
-      </a>
-      <div class="menu">
-        <a href="#services">Dịch vụ</a>
-        <a href="#about">Giới thiệu</a>
-        <a href="#doctor">Bác sĩ</a>
-        <a href="#hours">Thời gian</a>
-        <a href="#contact">Liên hệ</a>
-      </div>
-    </div>
-  </nav>
-
-  <header id="home" class="hero">
-    <img
-      class="hero__bg"
-      src="./assets/images/banner.jpg"
-      alt=""
-      aria-hidden="true"
-      loading="lazy"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phòng khám Sơn Kỳ</title>
+    <meta
+      name="description"
+      content="Phòng khám Sơn Kỳ - Kinh nghiệm, y đức, nhiệt tâm. Khám, điều trị và phẫu thuật an toàn."
     />
-    <div class="container hero__grid">
-      <div>
-        <span class="eyebrow">An tâm gởi trọn niềm tin</span>
-        <h1>Phòng khám <br />SƠN KỲ</h1>
-        <p class="lead">
-          Cơ sở y tế đáng tin cậy và chuyên nghiệp, tập trung vào việc cung cấp chăm sóc sức khỏe
-          và điều trị bệnh cho cộng đồng với tinh thần <strong>Kinh nghiệm - Y đức - Nhiệt tâm</strong>.
-        </p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="https://zalo.me/84913420615" target="_blank" rel="noopener noreferrer">Liên hệ ngay</a>
-          <a class="btn btn--outline" href="#services">Xem chuyên môn</a>
+    <meta
+      name="keywords"
+      content="phòng khám, y tế, bác sĩ, khám bệnh, Tân Phú, Hồ Chí Minh"
+    />
+    <meta name="author" content="Phòng khám Sơn Kỳ" />
+    <meta name="theme-color" content="#4CAF50" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Phòng khám Sơn Kỳ" />
+    <meta
+      property="og:description"
+      content="Phòng khám Sơn Kỳ - Kinh nghiệm, y đức, nhiệt tâm. Khám, điều trị và phẫu thuật an toàn."
+    />
+    <meta property="og:image" content="./assets/images/og-image.png" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="Phòng khám Sơn Kỳ" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Phòng khám Sơn Kỳ" />
+    <meta
+      name="twitter:description"
+      content="Phòng khám Sơn Kỳ - Kinh nghiệm, y đức, nhiệt tâm. Khám, điều trị và phẫu thuật an toàn."
+    />
+    <meta name="twitter:image" content="./assets/images/og-image.png" />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <span>102 Đường CN1, P. Sơn Kỳ, Q. Tân Phú, Hồ Chí Minh</span>
+        <span>Hotline: 0913420615</span>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="container nav__inner">
+        <a href="#home" class="brand">
+          <img
+            class="brand__logo"
+            src="./assets/images/logo.png"
+            alt="Phòng khám Sơn Kỳ"
+            width="38"
+            height="38"
+          />
+          <span>Phòng khám Sơn Kỳ</span>
+        </a>
+        <div class="menu">
+          <a href="#services">Dịch vụ</a>
+          <a href="#about">Giới thiệu</a>
+          <a href="#doctor">Bác sĩ</a>
+          <a href="#hours">Thời gian</a>
+          <a href="#contact">Liên hệ</a>
         </div>
       </div>
+    </nav>
 
-    </div>
-  </header>
-
-  <section id="services">
-    <div class="container">
-      <h2 class="section-title">Dịch vụ chính</h2>
-      <p class="section-text">
-        Với đội ngũ y bác sĩ giàu kinh nghiệm và trang bị hiện đại, phòng khám cam kết mang đến
-        dịch vụ phẫu thuật, khám và điều trị an toàn, hiệu quả cho nhiều nhóm bệnh lý.
-      </p>
-      <div class="grid-3">
-        <article class="card card--service">
-          <div class="service-card__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="8" r="3.5" />
-              <path d="M5 21v-1a7 7 0 0 1 14 0v1" />
-              <circle cx="8" cy="4" r="1" fill="currentColor" stroke="none" />
-              <circle cx="12" cy="4" r="1" fill="currentColor" stroke="none" />
-              <circle cx="16" cy="4" r="1" fill="currentColor" stroke="none" />
-            </svg>
-          </div>
-          <div class="service-card__body">
-            <h3>Phẫu thuật</h3>
-            <p>
-              Dịch vụ phẫu thuật ngoại khoa và chấn thương chỉnh hình, tập trung vào an toàn người bệnh
-              và hiệu quả điều trị lâu dài.
+    <header id="home" class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__content">
+            <span class="eyebrow">An tâm gởi trọn niềm tin</span>
+            <h1>Phòng khám <br />SƠN KỲ</h1>
+            <p class="lead">
+              Cơ sở y tế đáng tin cậy và chuyên nghiệp, tập trung vào việc cung
+              cấp chăm sóc sức khỏe và điều trị bệnh cho cộng đồng với tinh thần
+              <strong>Kinh nghiệm - Y đức - Nhiệt tâm</strong>.
             </p>
+            <div class="hero__actions">
+              <a
+                class="btn btn--primary"
+                href="https://zalo.me/84913420615"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Liên hệ ngay</a
+              >
+              <a class="btn btn--outline" href="#services">Xem chuyên môn</a>
+            </div>
           </div>
-        </article>
-        <article class="card card--service">
-          <div class="service-card__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-              <path d="M17 6v4M15 8h4" />
-            </svg>
-          </div>
-          <div class="service-card__body">
-            <h3>Khám và điều trị</h3>
-            <p>
-              Chẩn đoán và điều trị các vấn đề xương khớp, ung bướu, ruột thừa, sỏi thận, gan, hậu môn,
-              trực tràng, tăng huyết áp, tim mạch, đái tháo đường, viêm gan.
-            </p>
-          </div>
-        </article>
-        <article class="card card--service">
-          <div class="service-card__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M12 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3z" />
-              <path d="M4 20v-1a8 8 0 0 1 8-8h0a8 8 0 0 1 8 8v1" />
-              <path d="M16 14c1.5 1 2.5 2.5 3 4" />
-              <path d="M18 12c1.2.6 2 1.8 2 3.2" />
-              <path d="M20 11c1 .5 1.7 1.5 1.7 2.7" />
-            </svg>
-          </div>
-          <div class="service-card__body">
-            <h3>Tư vấn</h3>
-            <p>
-              Cung cấp dịch vụ tư vấn chuyên nghiệp và hỗ trợ tâm lý nhằm đồng hành cùng bệnh nhân
-              trong toàn bộ quá trình chăm sóc sức khỏe.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="about-section">
-    <div class="container">
-      <h2 class="section-title section-title--center">Bạn sẽ luôn an tâm khi đến với Sơn Kỳ chúng tôi</h2>
-      <div class="about-grid">
-        <article class="about-card">
-          <div class="about-card__media">
-            <img
-              src="./assets/images/about/01-suc-khoe.jpg"
-              alt="Phòng khám Sơn Kỳ"
-              width="650"
-              height="750"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-card__body">
-            <h3>Sức khỏe là ưu tiên hàng đầu</h3>
-            <p>Chúng tôi cam kết đồng hành cùng bệnh nhân trong quá trình khám và điều trị.</p>
-          </div>
-        </article>
-        <article class="about-card">
-          <div class="about-card__media">
-            <img
-              src="./assets/images/about/02-chuyen-mon.jpg"
-              alt="Phẫu thuật tại phòng khám"
-              width="650"
-              height="750"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-card__body">
-            <h3>Chuyên môn cao</h3>
-            <p>
-              Xương khớp, ung bướu, ruột thừa, sỏi thận, gan, hậu môn, trực tràng, tăng huyết áp, tim mạch,
-              đái tháo đường, và viêm gan.
-            </p>
-          </div>
-        </article>
-        <article class="about-card">
-          <div class="about-card__media">
-            <img
-              src="./assets/images/about/03-nhieu-nam.jpg"
-              alt="Khám và điều trị"
-              width="650"
-              height="750"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-card__body">
-            <h3>Nhiều năm kinh nghiệm</h3>
-            <p>Đội ngũ chuyên gia của chúng tôi có kinh nghiệm tâm lý và tư vấn sức khỏe.</p>
-          </div>
-        </article>
-        <article class="about-card">
-          <div class="about-card__media">
-            <img
-              src="./assets/images/about/04-doi-ngu.jpg"
-              alt="Chăm sóc bệnh nhân"
-              width="700"
-              height="800"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-card__body">
-            <h3>Đội ngũ nhiệt tình thân thiện</h3>
-            <p>
-              Chúng tôi hiểu rằng sức khỏe không chỉ liên quan đến cơ thể mà còn liên quan đến tâm trí và
-              tinh thần.
-            </p>
-          </div>
-        </article>
-        <article class="about-card">
-          <div class="about-card__media">
-            <img
-              src="./assets/images/about/05-dich-vu.jpg"
-              alt="Dịch vụ chăm sóc"
-              width="650"
-              height="550"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-card__body">
-            <h3>Dịch vụ uy tín</h3>
-            <p>Lắng nghe và tương tác với bệnh nhân một cách tôn trọng và nhạy cảm.</p>
-          </div>
-        </article>
-        <article class="about-card">
-          <div class="about-card__media">
-            <img
-              src="./assets/images/about/06-chi-phi.jpg"
-              alt="Chi phí phù hợp"
-              width="650"
-              height="550"
-              loading="lazy"
-            />
-          </div>
-          <div class="about-card__body">
-            <h3>Chi phí phù hợp</h3>
-            <p>Kết hợp khám và điều trị với tư vấn sẽ mang lại lợi ích tối đa cho bệnh nhân.</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="doctor" class="doctor-section">
-    <div class="container doctor-layout">
-      <div class="doctor-bio doctor">
-        <h2 class="doctor-bio__name">BS Nguyễn Hà Dương Phan</h2>
-        <p class="doctor-bio__school">Đại học y khoa Huế 1988 - 1994</p>
-        <ul class="doctor-list">
-          <li>
-            <span class="doctor-list__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" /></svg>
-            </span>
-            <span>Bác sĩ nội trú chuyên ngành ngoại (phẫu thuật) khóa 4.</span>
-          </li>
-          <li>
-            <span class="doctor-list__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" /></svg>
-            </span>
-            <span>Giảng viên Bộ môn Phẫu thuật thực hành Đại học Y khoa Huế.</span>
-          </li>
-          <li>
-            <span class="doctor-list__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" /></svg>
-            </span>
-            <span>Tu nghiệp tại Hospital Erasme (chấn thương chỉnh hình), Institut Jules Bordet (ung thư xương).</span>
-          </li>
-          <li>
-            <span class="doctor-list__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" /></svg>
-            </span>
-            <span>Thành viên Hội Ngoại khoa Việt Nam.</span>
-          </li>
-          <li>
-            <span class="doctor-list__icon" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" /></svg>
-            </span>
-            <span>30 năm kinh nghiệm chuyên ngành phẫu thuật ngoại khoa, chấn thương chỉnh hình.</span>
-          </li>
-        </ul>
-        <div class="quote">
-          "Kết hợp khám, điều trị và tư vấn sẽ mang lại lợi ích tối đa cho bệnh nhân."
+          <img
+            class="hero__bg"
+            src="./assets/images/banner.jpg"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
+          />
         </div>
       </div>
-      <figure class="doctor-cert">
-        <img
-          class="doctor-cert__img"
-          src="./assets/images/chung-chi-hanh-nghe.png"
-          alt="Chứng chỉ hành nghề khám bệnh, chữa bệnh"
-          width="750"
-          height="1062"
-          loading="lazy"
-        />
-        <figcaption class="visually-hidden">Chứng chỉ hành nghề</figcaption>
-      </figure>
-    </div>
-  </section>
+    </header>
 
-  <section>
-    <div class="container">
-      <h2 class="section-title">Chuyên môn trong ngành</h2>
-      <div class="grid-3">
-        <article class="card"><h3>Chấn thương chỉnh hình</h3></article>
-        <article class="card"><h3>Xương khớp và cột sống</h3></article>
-        <article class="card"><h3>Ruột thừa, sỏi thận</h3></article>
-        <article class="card"><h3>Tiết niệu, gan mật</h3></article>
-        <article class="card"><h3>Tăng huyết áp, tim mạch</h3></article>
-        <article class="card"><h3>Đái tháo đường</h3></article>
-        <article class="card"><h3>Ung bướu, viêm gan</h3></article>
-        <article class="card"><h3>Hậu môn và trực tràng</h3></article>
-        <article class="card"><h3>Tư vấn hỗ trợ sức khỏe tổng quát</h3></article>
-      </div>
-    </div>
-  </section>
-
-  <section class="testimonials-section" aria-labelledby="tri-an-heading">
-    <div class="container">
-      <h2 id="tri-an-heading" class="section-title section-title--center testimonial-heading">Món quà tri ân</h2>
-      <div class="testimonial-grid">
-        <article class="testimonial-card">
-          <blockquote class="testimonial-card__quote">
-            Phòng khám của bạn thật tuyệt vời! Đội ngũ y bác sĩ và nhân viên rất chuyên nghiệp và tận tâm.
-            Tôi rất hài lòng và sẽ khuyên bạn bè tới đây.
-          </blockquote>
-          <footer class="testimonial-card__footer">
-            <img
-              class="testimonial-card__avatar"
-              src="./assets/images/testimonials/co-man.jpg"
-              alt=""
-              width="52"
-              height="52"
-              loading="lazy"
-            />
-            <div class="testimonial-card__meta">
-              <strong>Cô Mận</strong>
-              <span class="testimonial-card__age">70 tuổi</span>
-            </div>
-          </footer>
-        </article>
-        <article class="testimonial-card">
-          <blockquote class="testimonial-card__quote">
-            Tôi đã nhận được dịch vụ chuyên nghiệp và đáng tin cậy. Tôi sẽ quay lại và giới thiệu
-            phòng khám này cho mọi người.
-          </blockquote>
-          <footer class="testimonial-card__footer">
-            <img
-              class="testimonial-card__avatar"
-              src="./assets/images/testimonials/anh-duong.jpg"
-              alt=""
-              width="52"
-              height="52"
-              loading="lazy"
-            />
-            <div class="testimonial-card__meta">
-              <strong>Anh Dương</strong>
-              <span class="testimonial-card__age">31 tuổi</span>
-            </div>
-          </footer>
-        </article>
-        <article class="testimonial-card">
-          <blockquote class="testimonial-card__quote">
-            Tôi đã có một trải nghiệm chăm sóc sức khỏe tuyệt vời tại đây. Tôi rất hài lòng và sẽ giới thiệu
-            phòng khám này cho bạn bè và gia đình.
-          </blockquote>
-          <footer class="testimonial-card__footer">
-            <img
-              class="testimonial-card__avatar"
-              src="./assets/images/testimonials/chi-phuong.jpg"
-              alt=""
-              width="52"
-              height="52"
-              loading="lazy"
-            />
-            <div class="testimonial-card__meta">
-              <strong>Chị Phương</strong>
-              <span class="testimonial-card__age">29 tuổi</span>
-            </div>
-          </footer>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="stats stats--values stats--modern" aria-labelledby="stats-values-heading">
-    <div class="container stats-values__inner">
-      <header class="stats-values__header">
-        <h2 id="stats-values-heading" class="stats-values__title">Kinh nghiệm. Y đức. Nhiệt tâm</h2>
-        <p class="stats-values__lead">
-          Phòng khám của chúng tôi là một cơ sở y tế đáng tin cậy và chuyên nghiệp, tập trung vào việc cung cấp
-          chăm sóc sức khỏe và điều trị bệnh cho cộng đồng.
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Dịch vụ chính</h2>
+        <p class="section-text">
+          Với đội ngũ y bác sĩ giàu kinh nghiệm và trang bị hiện đại, phòng khám
+          cam kết mang đến dịch vụ phẫu thuật, khám và điều trị an toàn, hiệu
+          quả cho nhiều nhóm bệnh lý.
         </p>
-      </header>
-      <div class="stat-grid stat-grid--inline stat-grid--modern">
-        <article class="stat stat--row">
-          <span class="stat__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><path d="M9 16l2 2 4-4"/></svg>
-          </span>
-          <div class="stat__text">
-            <strong>02</strong>
-            <span>Năm phát triển</span>
-          </div>
-        </article>
-        <article class="stat stat--row">
-          <span class="stat__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-          </span>
-          <div class="stat__text">
-            <strong>550</strong>
-            <span>Lượt bệnh nhân</span>
-          </div>
-        </article>
-        <article class="stat stat--row">
-          <span class="stat__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-          </span>
-          <div class="stat__text">
-            <strong>99%</strong>
-            <span>Ca điều trị thành công</span>
-          </div>
-        </article>
-        <article class="stat stat--row">
-          <span class="stat__icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg>
-          </span>
-          <div class="stat__text">
-            <strong>100%</strong>
-            <span>Đảm bảo chất lượng</span>
-          </div>
-        </article>
+        <div class="grid-3">
+          <article class="card card--service">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="8" r="3.5" />
+                <path d="M5 21v-1a7 7 0 0 1 14 0v1" />
+                <circle cx="8" cy="4" r="1" fill="currentColor" stroke="none" />
+                <circle
+                  cx="12"
+                  cy="4"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+                <circle
+                  cx="16"
+                  cy="4"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3>Phẫu thuật</h3>
+              <p>
+                Dịch vụ phẫu thuật ngoại khoa và chấn thương chỉnh hình, tập
+                trung vào an toàn người bệnh và hiệu quả điều trị lâu dài.
+              </p>
+            </div>
+          </article>
+          <article class="card card--service">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                />
+                <path d="M17 6v4M15 8h4" />
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3>Khám và điều trị</h3>
+              <p>
+                Chẩn đoán và điều trị các vấn đề xương khớp, ung bướu, ruột
+                thừa, sỏi thận, gan, hậu môn, trực tràng, tăng huyết áp, tim
+                mạch, đái tháo đường, viêm gan.
+              </p>
+            </div>
+          </article>
+          <article class="card card--service">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3z" />
+                <path d="M4 20v-1a8 8 0 0 1 8-8h0a8 8 0 0 1 8 8v1" />
+                <path d="M16 14c1.5 1 2.5 2.5 3 4" />
+                <path d="M18 12c1.2.6 2 1.8 2 3.2" />
+                <path d="M20 11c1 .5 1.7 1.5 1.7 2.7" />
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3>Tư vấn</h3>
+              <p>
+                Cung cấp dịch vụ tư vấn chuyên nghiệp và hỗ trợ tâm lý nhằm đồng
+                hành cùng bệnh nhân trong toàn bộ quá trình chăm sóc sức khỏe.
+              </p>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="hours" class="hours-section hours-section--modern" aria-labelledby="hours-heading">
-    <div class="container">
-      <header class="hours-section__header">
-        <h2 id="hours-heading" class="hours-section__title">Thời gian hoạt động</h2>
-        <p class="hours-section__subtitle">Lịch tiếp nhận và trực cấp cứu</p>
-      </header>
-      <div class="hours-list hours-list--modern">
-        <article class="hours-card">
-          <span class="hours-card__time"><span class="hours-card__time-inner">07:00</span></span>
-          <div class="hours-card__thumb">
-            <img src="./assets/images/about/01-suc-khoe.jpg" alt="" width="200" height="200" loading="lazy" />
-          </div>
-          <div class="hours-card__body">
-            <h3 class="hours-card__heading">Mở cửa đón bệnh nhân</h3>
-            <p class="hours-card__desc">Tiếp nhận ca bệnh, lên lịch khám</p>
-          </div>
-        </article>
-        <article class="hours-card">
-          <span class="hours-card__time"><span class="hours-card__time-inner">21:00</span></span>
-          <div class="hours-card__thumb">
-            <img src="./assets/images/about/05-dich-vu.jpg" alt="" width="200" height="200" loading="lazy" />
-          </div>
-          <div class="hours-card__body">
-            <h3 class="hours-card__heading">Dừng nhận bệnh thông thường</h3>
-            <p class="hours-card__desc">Các hoạt động theo dõi và thăm nuôi vẫn diễn ra</p>
-          </div>
-        </article>
-        <article class="hours-card">
-          <span class="hours-card__time"><span class="hours-card__time-inner">24/7</span></span>
-          <div class="hours-card__thumb">
-            <img src="./assets/images/about/02-chuyen-mon.jpg" alt="" width="200" height="200" loading="lazy" />
-          </div>
-          <div class="hours-card__body">
-            <h3 class="hours-card__heading">Các hoạt động cấp cứu</h3>
-            <p class="hours-card__desc">Luôn sẵn sàng cho các trường hợp khẩn cấp</p>
-          </div>
-        </article>
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2 class="section-title section-title--center">
+          Bạn sẽ luôn an tâm khi đến với Sơn Kỳ chúng tôi
+        </h2>
+        <div class="about-grid">
+          <article class="about-card">
+            <div class="about-card__media">
+              <img
+                src="./assets/images/about/01-suc-khoe.jpg"
+                alt="Phòng khám Sơn Kỳ"
+                width="650"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-card__body">
+              <h3>Sức khỏe là ưu tiên hàng đầu</h3>
+              <p>
+                Chúng tôi cam kết đồng hành cùng bệnh nhân trong quá trình khám
+                và điều trị.
+              </p>
+            </div>
+          </article>
+          <article class="about-card">
+            <div class="about-card__media">
+              <img
+                src="./assets/images/about/02-chuyen-mon.jpg"
+                alt="Phẫu thuật tại phòng khám"
+                width="650"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-card__body">
+              <h3>Chuyên môn cao</h3>
+              <p>
+                Xương khớp, ung bướu, ruột thừa, sỏi thận, gan, hậu môn, trực
+                tràng, tăng huyết áp, tim mạch, đái tháo đường, và viêm gan.
+              </p>
+            </div>
+          </article>
+          <article class="about-card">
+            <div class="about-card__media">
+              <img
+                src="./assets/images/about/03-nhieu-nam.jpg"
+                alt="Khám và điều trị"
+                width="650"
+                height="750"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-card__body">
+              <h3>Nhiều năm kinh nghiệm</h3>
+              <p>
+                Đội ngũ chuyên gia của chúng tôi có kinh nghiệm tâm lý và tư vấn
+                sức khỏe.
+              </p>
+            </div>
+          </article>
+          <article class="about-card">
+            <div class="about-card__media">
+              <img
+                src="./assets/images/about/04-doi-ngu.jpg"
+                alt="Chăm sóc bệnh nhân"
+                width="700"
+                height="800"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-card__body">
+              <h3>Đội ngũ nhiệt tình thân thiện</h3>
+              <p>
+                Chúng tôi hiểu rằng sức khỏe không chỉ liên quan đến cơ thể mà
+                còn liên quan đến tâm trí và tinh thần.
+              </p>
+            </div>
+          </article>
+          <article class="about-card">
+            <div class="about-card__media">
+              <img
+                src="./assets/images/about/05-dich-vu.jpg"
+                alt="Dịch vụ chăm sóc"
+                width="650"
+                height="550"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-card__body">
+              <h3>Dịch vụ uy tín</h3>
+              <p>
+                Lắng nghe và tương tác với bệnh nhân một cách tôn trọng và nhạy
+                cảm.
+              </p>
+            </div>
+          </article>
+          <article class="about-card">
+            <div class="about-card__media">
+              <img
+                src="./assets/images/about/06-chi-phi.jpg"
+                alt="Chi phí phù hợp"
+                width="650"
+                height="550"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-card__body">
+              <h3>Chi phí phù hợp</h3>
+              <p>
+                Kết hợp khám và điều trị với tư vấn sẽ mang lại lợi ích tối đa
+                cho bệnh nhân.
+              </p>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2 class="section-title">Liên hệ chúng tôi</h2>
-      <div class="contact-grid">
-        <article class="contact-card">
-          <h3>Hotline</h3>
-          <p>0913420615</p>
-        </article>
-        <article class="contact-card">
-          <h3>Email</h3>
-          <p>nguyenhaduongphan0310@gmail.com</p>
-        </article>
-        <article class="contact-card">
-          <h3>Địa chỉ</h3>
-          <p>102 Đường CN1, Phường Sơn Kỳ, Quận Tân Phú, Hồ Chí Minh.</p>
-        </article>
+    <section id="doctor" class="doctor-section">
+      <div class="container doctor-layout">
+        <div class="doctor-bio doctor">
+          <h2 class="doctor-bio__name">BS Nguyễn Hà Dương Phan</h2>
+          <p class="doctor-bio__school">Đại học y khoa Huế 1988 - 1994</p>
+          <ul class="doctor-list">
+            <li>
+              <span class="doctor-list__icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </span>
+              <span
+                >Bác sĩ nội trú chuyên ngành ngoại (phẫu thuật) khóa 4.</span
+              >
+            </li>
+            <li>
+              <span class="doctor-list__icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </span>
+              <span
+                >Giảng viên Bộ môn Phẫu thuật thực hành Đại học Y khoa
+                Huế.</span
+              >
+            </li>
+            <li>
+              <span class="doctor-list__icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </span>
+              <span
+                >Tu nghiệp tại Hospital Erasme (chấn thương chỉnh hình),
+                Institut Jules Bordet (ung thư xương).</span
+              >
+            </li>
+            <li>
+              <span class="doctor-list__icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </span>
+              <span>Thành viên Hội Ngoại khoa Việt Nam.</span>
+            </li>
+            <li>
+              <span class="doctor-list__icon" aria-hidden="true">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M20 6L9 17l-5-5" />
+                </svg>
+              </span>
+              <span
+                >30 năm kinh nghiệm chuyên ngành phẫu thuật ngoại khoa, chấn
+                thương chỉnh hình.</span
+              >
+            </li>
+          </ul>
+          <div class="quote">
+            "Kết hợp khám, điều trị và tư vấn sẽ mang lại lợi ích tối đa cho
+            bệnh nhân."
+          </div>
+        </div>
+        <figure class="doctor-cert">
+          <img
+            class="doctor-cert__img"
+            src="./assets/images/chung-chi-hanh-nghe.png"
+            alt="Chứng chỉ hành nghề khám bệnh, chữa bệnh"
+            width="750"
+            height="1062"
+            loading="lazy"
+          />
+          <figcaption class="visually-hidden">Chứng chỉ hành nghề</figcaption>
+        </figure>
       </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Chuyên môn trong ngành</h2>
+        <div class="grid-3">
+          <article class="card"><h3>Chấn thương chỉnh hình</h3></article>
+          <article class="card"><h3>Xương khớp và cột sống</h3></article>
+          <article class="card"><h3>Ruột thừa, sỏi thận</h3></article>
+          <article class="card"><h3>Tiết niệu, gan mật</h3></article>
+          <article class="card"><h3>Tăng huyết áp, tim mạch</h3></article>
+          <article class="card"><h3>Đái tháo đường</h3></article>
+          <article class="card"><h3>Ung bướu, viêm gan</h3></article>
+          <article class="card"><h3>Hậu môn và trực tràng</h3></article>
+          <article class="card">
+            <h3>Tư vấn hỗ trợ sức khỏe tổng quát</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section" aria-labelledby="tri-an-heading">
+      <div class="container">
+        <h2
+          id="tri-an-heading"
+          class="section-title section-title--center testimonial-heading"
+        >
+          Món quà tri ân
+        </h2>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <blockquote class="testimonial-card__quote">
+              Phòng khám của bạn thật tuyệt vời! Đội ngũ y bác sĩ và nhân viên
+              rất chuyên nghiệp và tận tâm. Tôi rất hài lòng và sẽ khuyên bạn bè
+              tới đây.
+            </blockquote>
+            <footer class="testimonial-card__footer">
+              <img
+                class="testimonial-card__avatar"
+                src="./assets/images/testimonials/co-man.jpg"
+                alt=""
+                width="52"
+                height="52"
+                loading="lazy"
+              />
+              <div class="testimonial-card__meta">
+                <strong>Cô Mận</strong>
+                <span class="testimonial-card__age">70 tuổi</span>
+              </div>
+            </footer>
+          </article>
+          <article class="testimonial-card">
+            <blockquote class="testimonial-card__quote">
+              Tôi đã nhận được dịch vụ chuyên nghiệp và đáng tin cậy. Tôi sẽ
+              quay lại và giới thiệu phòng khám này cho mọi người.
+            </blockquote>
+            <footer class="testimonial-card__footer">
+              <img
+                class="testimonial-card__avatar"
+                src="./assets/images/testimonials/anh-duong.jpg"
+                alt=""
+                width="52"
+                height="52"
+                loading="lazy"
+              />
+              <div class="testimonial-card__meta">
+                <strong>Anh Dương</strong>
+                <span class="testimonial-card__age">31 tuổi</span>
+              </div>
+            </footer>
+          </article>
+          <article class="testimonial-card">
+            <blockquote class="testimonial-card__quote">
+              Tôi đã có một trải nghiệm chăm sóc sức khỏe tuyệt vời tại đây. Tôi
+              rất hài lòng và sẽ giới thiệu phòng khám này cho bạn bè và gia
+              đình.
+            </blockquote>
+            <footer class="testimonial-card__footer">
+              <img
+                class="testimonial-card__avatar"
+                src="./assets/images/testimonials/chi-phuong.jpg"
+                alt=""
+                width="52"
+                height="52"
+                loading="lazy"
+              />
+              <div class="testimonial-card__meta">
+                <strong>Chị Phương</strong>
+                <span class="testimonial-card__age">29 tuổi</span>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="stats stats--values stats--modern"
+      aria-labelledby="stats-values-heading"
+    >
+      <div class="container stats-values__inner">
+        <header class="stats-values__header">
+          <h2 id="stats-values-heading" class="stats-values__title">
+            Kinh nghiệm. Y đức. Nhiệt tâm
+          </h2>
+          <p class="stats-values__lead">
+            Phòng khám của chúng tôi là một cơ sở y tế đáng tin cậy và chuyên
+            nghiệp, tập trung vào việc cung cấp chăm sóc sức khỏe và điều trị
+            bệnh cho cộng đồng.
+          </p>
+        </header>
+        <div class="stat-grid stat-grid--inline stat-grid--modern">
+          <article class="stat stat--row">
+            <span class="stat__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <path d="M16 2v4M8 2v4M3 10h18" />
+                <path d="M9 16l2 2 4-4" />
+              </svg>
+            </span>
+            <div class="stat__text">
+              <strong>02</strong>
+              <span>Năm phát triển</span>
+            </div>
+          </article>
+          <article class="stat stat--row">
+            <span class="stat__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M22 2L11 13" />
+                <path d="M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </span>
+            <div class="stat__text">
+              <strong>550</strong>
+              <span>Lượt bệnh nhân</span>
+            </div>
+          </article>
+          <article class="stat stat--row">
+            <span class="stat__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                />
+              </svg>
+            </span>
+            <div class="stat__text">
+              <strong>99%</strong>
+              <span>Ca điều trị thành công</span>
+            </div>
+          </article>
+          <article class="stat stat--row">
+            <span class="stat__icon" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" />
+              </svg>
+            </span>
+            <div class="stat__text">
+              <strong>100%</strong>
+              <span>Đảm bảo chất lượng</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="hours"
+      class="hours-section hours-section--modern"
+      aria-labelledby="hours-heading"
+    >
+      <div class="container">
+        <header class="hours-section__header">
+          <h2 id="hours-heading" class="hours-section__title">
+            Thời gian hoạt động
+          </h2>
+          <p class="hours-section__subtitle">Lịch tiếp nhận và trực cấp cứu</p>
+        </header>
+        <div class="hours-list hours-list--modern">
+          <article class="hours-card">
+            <span class="hours-card__time"
+              ><span class="hours-card__time-inner">07:00</span></span
+            >
+            <div class="hours-card__thumb">
+              <img
+                src="./assets/images/about/01-suc-khoe.jpg"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="hours-card__body">
+              <h3 class="hours-card__heading">Mở cửa đón bệnh nhân</h3>
+              <p class="hours-card__desc">Tiếp nhận ca bệnh, lên lịch khám</p>
+            </div>
+          </article>
+          <article class="hours-card">
+            <span class="hours-card__time"
+              ><span class="hours-card__time-inner">21:00</span></span
+            >
+            <div class="hours-card__thumb">
+              <img
+                src="./assets/images/about/05-dich-vu.jpg"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="hours-card__body">
+              <h3 class="hours-card__heading">Dừng nhận bệnh thông thường</h3>
+              <p class="hours-card__desc">
+                Các hoạt động theo dõi và thăm nuôi vẫn diễn ra
+              </p>
+            </div>
+          </article>
+          <article class="hours-card">
+            <span class="hours-card__time"
+              ><span class="hours-card__time-inner">24/7</span></span
+            >
+            <div class="hours-card__thumb">
+              <img
+                src="./assets/images/about/02-chuyen-mon.jpg"
+                alt=""
+                width="200"
+                height="200"
+                loading="lazy"
+              />
+            </div>
+            <div class="hours-card__body">
+              <h3 class="hours-card__heading">Các hoạt động cấp cứu</h3>
+              <p class="hours-card__desc">
+                Luôn sẵn sàng cho các trường hợp khẩn cấp
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Liên hệ chúng tôi</h2>
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Hotline</h3>
+            <p>0913420615</p>
+          </article>
+          <article class="contact-card">
+            <h3>Email</h3>
+            <p>nguyenhaduongphan0310@gmail.com</p>
+          </article>
+          <article class="contact-card">
+            <h3>Địa chỉ</h3>
+            <p>102 Đường CN1, Phường Sơn Kỳ, Quận Tân Phú, Hồ Chí Minh.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="floating-cta" aria-label="Liên hệ nhanh">
+      <a
+        class="floating-cta__button floating-cta__zalo"
+        href="https://zalo.me/84913420615"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Liên hệ qua Zalo"
+        >Zalo</a
+      >
+      <a
+        class="floating-cta__button floating-cta__phone"
+        href="tel:+84913420615"
+        aria-label="Gọi nhanh"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="16"
+          height="16"
+          aria-hidden="true"
+          focusable="false"
+          style="vertical-align: middle"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12 1.12.36 2.21.7 3.25a2 2 0 0 1-.45 2L8.09 10.91a16 16 0 0 0 6 6l1.94-1.94a2 2 0 0 1 2-.45c1.04.34 2.13.58 3.25.7A2 2 0 0 1 22 16.92z"
+          />
+        </svg>
+      </a>
     </div>
-  </section>
 
-  <div class="floating-cta" aria-label="Liên hệ nhanh">
-    <a class="floating-cta__button floating-cta__zalo" href="https://zalo.me/84913420615" target="_blank" rel="noopener noreferrer" aria-label="Liên hệ qua Zalo">Zalo</a>
-    <a class="floating-cta__button floating-cta__phone" href="tel:+84913420615" aria-label="Gọi nhanh">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" style="vertical-align: middle;">
-        <path fill="none" stroke="currentColor" stroke-width="2" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12 1.12.36 2.21.7 3.25a2 2 0 0 1-.45 2L8.09 10.91a16 16 0 0 0 6 6l1.94-1.94a2 2 0 0 1 2-.45c1.04.34 2.13.58 3.25.7A2 2 0 0 1 22 16.92z" />
-      </svg>
-    </a>
-  </div>
+    <footer>
+      <div class="container">© <span id="year"></span> Phòng khám Sơn Kỳ</div>
+    </footer>
 
-  <footer>
-    <div class="container">
-      © <span id="year"></span> Phòng khám Sơn Kỳ
-    </div>
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
